@@ -1,0 +1,16 @@
+#resultContainer{
+    border-left: 1px solid gray;
+    margin-left: 10px;
+}
+
+.monospace{
+    font-family: monospace;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style:italic;
+}

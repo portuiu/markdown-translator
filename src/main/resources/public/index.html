@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Markdown compiler</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+</head>
+<body>
+<div class="container-fluid row">
+    <div class="col">
+        <form id="myForm" method="POST" action="/format">
+            <div class="form-group">
+                <label for="markdownTextarea">Markdown</label>
+                <textarea class="form-control" id="markdownTextarea" name="data" rows="5" placeholder="Enter your text" required></textarea>
+            </div>
+            <input type="button" id="compileButton" class="btn btn-primary" value="Compile">
+        </form>
+    </div>
+    <div class="col" id="resultContainer">
+        <label for="result">Preview</label>
+        <div id="result">
+
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
