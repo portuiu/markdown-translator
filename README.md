@@ -10,6 +10,8 @@ Supports:
 
 # How-to
 
-Launch http://localhost:9999
+- Run `mvn compile; mvn exec:java -Dexec.mainClass="Main"`
+
+- Launch http://localhost:9999
 
 Enjoy!
